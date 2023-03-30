@@ -1,5 +1,5 @@
 {
-  "name": "math_renderer",
+  "name": "",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,8 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/svelte": "^2.1.0",
-    "astro": "^2.1.8",
-    "svelte": "^3.57.0"
+    "astro": "^2.1.8"
   }
 }
