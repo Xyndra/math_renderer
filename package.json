@@ -10,7 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/svelte": "^2.1.0",
     "astro": "^2.1.8",
+    "nanostores": "^0.7.4",
+    "svelte": "^3.58.0",
     "three": "^0.151.0"
   },
   "devDependencies": {
