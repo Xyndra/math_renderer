@@ -2,10 +2,11 @@ This will be like a mix of `manim`, Geogebra and MS PowerPoint
 -------------------------------------
 
 Features:
-- None
+- Dark mode
 
 Roadmap:
 - [x] Install Astro
+- [x] Add dark mode
 - [ ] Empty Page
 - [ ] Install Three.js
 - [ ] Hard-coded sample scene
