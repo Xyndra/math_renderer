@@ -6,6 +6,7 @@ Features:
 
 Roadmap:
 - [x] Install Astro
+- [x] Add dark mode
 - [ ] Empty Page
 - [ ] Install Three.js
 - [ ] Hard-coded sample scene
