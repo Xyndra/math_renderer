@@ -38,15 +38,4 @@
             border-color: #333;
         }
     }
-    .instructions code {
-        font-size: 0.875em;
-        font-weight: bold;
-        background: rgba(var(--accent), 12%);
-        color: rgb(var(--accent));
-        border-radius: 4px;
-        padding: 0.3em 0.45em;
-    }
-    .instructions strong {
-        color: rgb(var(--accent));
-    }
 </style>

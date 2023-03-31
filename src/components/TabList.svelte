@@ -24,14 +24,17 @@
     #tab1 {
         transform: translateX(60%);
         background-color: #f00;
+        border-color: #f00;
     }
     #tab2 {
-        transform: translateX(125%);
+        transform: translateX(132%);
         background-color: #0f0;
+        border-color: #0f0;
     }
     #tab3 {
-        transform: translateX(190%);
+        transform: translateX(203%);
         background-color: #00f;
+        border-color: #00f;
     }
     div {
         position: absolute;
