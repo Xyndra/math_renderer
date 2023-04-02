@@ -18,7 +18,7 @@ This will be like a mix of `manim`, Geogebra and MS PowerPoint
 - [x] Hard-coded sample scene with animation
 - [x] Add Svelte for Reactivity 
 - [x] Add Tabs
-- [ ] Export Hard-coded sample to ~~mp4~~ webm on tab 1
+- [x] Export Hard-coded sample to ~~mp4~~ webm on tab 1
 - [ ] Changeable vars in tab 2
 - [ ] Add & Remove sample objects in tab 2
 - [ ] Configure animations in tab 3
