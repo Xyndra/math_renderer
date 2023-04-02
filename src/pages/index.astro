@@ -3,8 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Tab1 from '../tabs/Tab1.svelte';
 import Tab2 from '../tabs/Tab2.svelte';
 import Tab3 from '../tabs/Tab3.svelte';
-//import Card from '../components/Card.astro';
-import Viewer from  '../components/Viewer.astro';
+import Viewer from '../components/Viewer.svelte';
 import TabList from '../components/TabList.svelte';
 ---
 
@@ -14,7 +13,7 @@ import TabList from '../components/TabList.svelte';
         <Tab1 client:load />
         <Tab2 client:load />
         <Tab3 client:load />
-        <Viewer/>
+        <Viewer client:only />
     </main>
 </Layout>
 

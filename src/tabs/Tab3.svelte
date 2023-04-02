@@ -31,11 +31,4 @@
         padding: 1rem;
         border-radius: 0.4rem;
     }
-    @media (prefers-color-scheme: dark) {
-        .instructions {
-            background-color: #222;
-            color: #eee;
-            border-color: #333;
-        }
-    }
 </style>

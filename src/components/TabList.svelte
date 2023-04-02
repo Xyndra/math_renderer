@@ -1,11 +1,35 @@
 <script>
     import { current_tab } from "../store";
+    import {onMount} from "svelte";
+
+    onMount(async () => {
+        while (true) {
+            switch ($current_tab) {
+                case 1:
+                    document.getElementById("tab1").style.filter = "brightness(70%)";
+                    document.getElementById("tab2").style.filter = "brightness(100%)";
+                    document.getElementById("tab3").style.filter = "brightness(100%)";
+                    break;
+                case 2:
+                    document.getElementById("tab2").style.filter = "brightness(70%)";
+                    document.getElementById("tab1").style.filter = "brightness(100%)";
+                    document.getElementById("tab3").style.filter = "brightness(100%)";
+                    break;
+                case 3:
+                    document.getElementById("tab3").style.filter = "brightness(70%)";
+                    document.getElementById("tab1").style.filter = "brightness(100%)";
+                    document.getElementById("tab2").style.filter = "brightness(100%)";
+                    break;
+            }
+            await new Promise(r => setTimeout(r, 100));
+        }
+    });
 </script>
 
 <div>
-    <button id="tab1" on:click={() => current_tab.set(1)}><img src="./fontawesome/solid/video.svg" alt="Video"/></button>
-    <button id="tab2" on:click={() => current_tab.set(2)}><img src="./fontawesome/solid/code.svg" alt="Code"/></button>
-    <button id="tab3" on:click={() => current_tab.set(3)}><img src="./fontawesome/regular/circle-play.svg" alt="Animator"/></button>
+    <button id="tab1" on:click={() => current_tab.set(1)} ><img src="./fontawesome/solid/video.svg" alt="Video"/></button>
+    <button id="tab2" on:click={() => current_tab.set(2)} ><img src="./fontawesome/solid/code.svg" alt="Code"/></button>
+    <button id="tab3" on:click={() => current_tab.set(3)} ><img src="./fontawesome/regular/circle-play.svg" alt="Animator"/></button>
 </div>
 
 <style>
